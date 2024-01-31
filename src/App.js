@@ -1,5 +1,10 @@
 import "./App.css";
 
+/**
+ *  App
+ * @returns Main Component of our app
+ */
+
 function App() {
   return (
     <div className=" text-center  ">
