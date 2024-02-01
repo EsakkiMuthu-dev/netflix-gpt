@@ -22,6 +22,6 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "comma-dangle": ["error", "never"],
-    "single"
+ 
   },
 };
