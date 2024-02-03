@@ -1,9 +1,11 @@
 const Header = () => {
   return (
-    <div>
+    <div className=" absolute px-8 py-3 bg-gradient-to-b from-black  z-10">
       <img
-        src="https://github.com/EsakkiMuthu-dev/netflix-gpt/blob/main/public/netflix-logo-circle-png-5.png"
+        src="https://raw.githubusercontent.com/EsakkiMuthu-dev/netflix-gpt/main/public/netflix-logo-circle-png-5.png"
         alt="logo"
+        className=" w-16
+      "
       />
     </div>
   );
