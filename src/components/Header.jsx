@@ -1,7 +1,10 @@
 const Header = () => {
   return (
     <div>
-      <h1> HEader</h1>
+      <img
+        src="https://github.com/EsakkiMuthu-dev/netflix-gpt/blob/main/public/netflix-logo-circle-png-5.png"
+        alt="logo"
+      />
     </div>
   );
 };
