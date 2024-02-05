@@ -1,0 +1,46 @@
+[debug] [2024-02-05T14:33:02.769Z] ----------------------------------------------------------------------
+[debug] [2024-02-05T14:33:02.770Z] Command:       /Users/esakki-20378/.nvm/versions/node/v18.19.0/bin/node /Users/esakki-20378/.nvm/versions/node/v18.19.0/bin/firebase deploy
+[debug] [2024-02-05T14:33:02.770Z] CLI Version:   13.1.0
+[debug] [2024-02-05T14:33:02.770Z] Platform:      darwin
+[debug] [2024-02-05T14:33:02.770Z] Node Version:  v18.19.0
+[debug] [2024-02-05T14:33:02.771Z] Time:          Mon Feb 05 2024 20:03:02 GMT+0530 (India Standard Time)
+[debug] [2024-02-05T14:33:02.771Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-05T14:33:02.805Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-05T14:33:02.805Z] > authorizing via signed-in user (esakkimuthu6842@gmail.com)
+[debug] [2024-02-05T14:33:02.805Z] [iam] checking project netflix-gpt-37b93 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-05T14:33:02.806Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions [none]
+[debug] [2024-02-05T14:33:02.807Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions x-goog-quota-user=projects/netflix-gpt-37b93
+[debug] [2024-02-05T14:33:02.807Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-02-05T14:33:02.845Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions 503
+[debug] [2024-02-05T14:33:02.846Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions "dial tcp: lookup cloudresourcemanager.googleapis.com: no such host\n"
+[debug] [2024-02-05T14:33:02.846Z] [iam] error while checking permissions, command may fail: FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token d in JSON at position 0
+[debug] [2024-02-05T14:33:02.846Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-gpt-37b93 [none]
+[debug] [2024-02-05T14:33:02.869Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-gpt-37b93 503
+[debug] [2024-02-05T14:33:02.869Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-gpt-37b93 "dial tcp: lookup firebase.googleapis.com: no such host\n"
+[debug] [2024-02-05T14:33:02.869Z] Unable to parse JSON: SyntaxError: Unexpected token d in JSON at position 0
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-02-05T14:33:17.496Z] ----------------------------------------------------------------------
+[debug] [2024-02-05T14:33:17.497Z] Command:       /Users/esakki-20378/.nvm/versions/node/v18.19.0/bin/node /Users/esakki-20378/.nvm/versions/node/v18.19.0/bin/firebase deploy
+[debug] [2024-02-05T14:33:17.497Z] CLI Version:   13.1.0
+[debug] [2024-02-05T14:33:17.497Z] Platform:      darwin
+[debug] [2024-02-05T14:33:17.497Z] Node Version:  v18.19.0
+[debug] [2024-02-05T14:33:17.498Z] Time:          Mon Feb 05 2024 20:03:17 GMT+0530 (India Standard Time)
+[debug] [2024-02-05T14:33:17.498Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-05T14:33:17.526Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-05T14:33:17.526Z] > authorizing via signed-in user (esakkimuthu6842@gmail.com)
+[debug] [2024-02-05T14:33:17.527Z] [iam] checking project netflix-gpt-37b93 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-05T14:33:17.528Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions [none]
+[debug] [2024-02-05T14:33:17.528Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions x-goog-quota-user=projects/netflix-gpt-37b93
+[debug] [2024-02-05T14:33:17.528Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-02-05T14:33:17.538Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions 503
+[debug] [2024-02-05T14:33:17.538Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-gpt-37b93:testIamPermissions "dial tcp: lookup cloudresourcemanager.googleapis.com: no such host\n"
+[debug] [2024-02-05T14:33:17.538Z] [iam] error while checking permissions, command may fail: FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token d in JSON at position 0
+[debug] [2024-02-05T14:33:17.538Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/netflix-gpt-37b93 [none]
+[debug] [2024-02-05T14:33:17.544Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/netflix-gpt-37b93 503
+[debug] [2024-02-05T14:33:17.544Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/netflix-gpt-37b93 "dial tcp: lookup firebase.googleapis.com: no such host\n"
+[debug] [2024-02-05T14:33:17.544Z] Unable to parse JSON: SyntaxError: Unexpected token d in JSON at position 0
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
